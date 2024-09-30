@@ -1,0 +1,29 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "HashiCorp.terraform",
+        "hashicorp.hcl",
+        "fredwangwang.vscode-hcl-format",
+        "tfsec.tfsec"
+      ],
+      "settings": {
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true,
+          "editor.tabSize": 2
+        },
+        "[terraform]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "hashicorp.terraform"
+        },
+        "[hcl]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "fredwangwang.vscode-hcl-format"}
+      }
+    }
+  },
+  "dockerComposeFile": "../compose.yaml",
+  "service": "iac",
+  "workspaceFolder": "/workspace"
+}
